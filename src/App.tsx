@@ -51,6 +51,7 @@ const App = () => {
       flexDir={'column'}
     >
       <Box
+        as={'form'}
         mt={16}
         w='70%'
         maxW='350px' onSubmit={handleSubmit}>
